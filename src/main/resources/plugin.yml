@@ -1,0 +1,9 @@
+name: PVPControlPapi
+version: '${project.version}'
+main: qanyiovo.pvpcontrol.papi
+api-version: 1.16
+commands:
+  pvpcp:
+    description: Reload the config
+    usage: /pvpcp reload
+    permission: pvpcp.admin
